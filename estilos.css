@@ -1,0 +1,40 @@
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.color-green {
+    color: #DAFF01;
+}
+
+.color-purple {
+    color: white;
+    text-decoration: none;
+    background-color: #9353FF;
+    padding: .375rem .75rem;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.color-purple:hover {
+    color: #fff;
+    background-color: #823df8;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.posicao{
+    top: 40%;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:60%;
+    }
+}
